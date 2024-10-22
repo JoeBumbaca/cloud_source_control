@@ -1,0 +1,10 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "adfb6c9a-90c8-11ef-a593-935e1307e4b1",
+  "appTemplate": {
+    "isGlobalWidget": true,
+    "version": "3.107.0",
+    "experimentalDataTabEnabled": true
+  }
+}
