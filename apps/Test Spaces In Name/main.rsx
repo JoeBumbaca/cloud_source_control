@@ -19,6 +19,33 @@
         horizontalAlign="center"
         src="https://picsum.photos/id/1025/800/600"
       />
+      <Form
+        id="form1"
+        footerPadding="4px 12px"
+        headerPadding="4px 12px"
+        padding="12px"
+        requireValidation={true}
+        resetAfterSubmit={true}
+        showBody={true}
+        showFooter={true}
+        showHeader={true}
+      >
+        <Header>
+          <Text
+            id="formTitle1"
+            value="#### Form title"
+            verticalAlign="center"
+          />
+        </Header>
+        <Footer>
+          <Button
+            id="formButton1"
+            submit={true}
+            submitTargetId="form1"
+            text="Submit"
+          />
+        </Footer>
+      </Form>
     </ModuleContainerWidget>
   </Frame>
 </App>
